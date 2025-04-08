@@ -4,6 +4,61 @@ This project was made as a partial evaluation for the Algotithm Analysis course 
 
 That said, this presentation explores the Skyline Problem, a classic computational geometry problem, focusing on how to solve the problem using algorithmic techniques like Divide and Conquer, while analyzing its complexity and real-world applications.
 
+## Group
+<table align="center">
+	<tr>
+		<td align="center">
+			<a href="https://github.com/anabxalves">
+				<img src="https://avatars.githubusercontent.com/u/108446826?v=4" width="200px;" alt="Foto Ana"/><br>
+				<sub>
+					<b>Ana Beatriz Alves</b>
+				</sub>
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/Caiobadv">
+				<img src="https://avatars.githubusercontent.com/u/117755420?v=4" width="200px;" alt="Foto Caio"/><br>
+				<sub>
+					<b>Caio Barreto</b>
+				</sub>
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/bela975">
+				<img src="https://avatars.githubusercontent.com/u/113048987?v=4" width="200px;" alt="Foto Isabela"/><br>
+				<sub>
+					<b>Isabela Spinelli</b>
+				</sub>
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/MaluArr">
+				<img src="https://avatars.githubusercontent.com/u/99887403?v=4" width="200px;" alt="Foto Maria Luisa"/><br>
+				<sub>
+					<b>Maria Luísa</b>
+				</sub>
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/VictorHTenorio">
+				<img src="https://avatars.githubusercontent.com/u/101901740?v=4" width="200px;" alt="Foto Victor"/><br>
+				<sub>
+					<b>Victor Hora</b>
+				</sub>
+			</a>
+		</td>
+	</tr>
+</table>
+
+## Directory Structure
+
+	├── presentation.pdf	# PPT used to present the project
+	├── skyline.ipynb		# Notebook used to exemplify the solution
+	├── requirements.txt
+	├── .gitignore
+	├── LICENSE
+	└── README.md
+
 ## The Problem
 Imagine you are walking through a city and looking at the horizon, seeing only the outline of the buildings. That line that draws the silhouette of the buildings against the sky — that is the city skyline.
 But what if the only information someone gave you about the buildings were coordinates, in a format where each building is represented by a tuples (left, height, right)? The goal is to determine the critical points where the skyline changes height.
